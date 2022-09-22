@@ -1,0 +1,27 @@
+.App-contenct{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width:225px;
+    height: 315px;
+    border-radius: 10px;
+    background: black;
+    transition: .8s;
+}
+
+.cardFront{
+    font-family: arial;
+    text-shadow: 5px 2px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+    background:rgb(145, 145, 145);
+
+}
